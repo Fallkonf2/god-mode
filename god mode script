@@ -1,0 +1,8 @@
+local GodMode = true
+if GodMode == true then
+game.Players.LocalPlayer.Character:remove()
+print("GodMode Activated")
+end
+if game.Players.LocalPlayer.CharacterAdded:Wait() then
+    game.Players.LocalPlayer:Kick("GodMode Hack Detected! I apologize for any misunderstanding. Thank you very much for playing my game, but you got ban UwU!")
+end
